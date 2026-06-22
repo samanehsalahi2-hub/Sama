@@ -1,5 +1,5 @@
-# <span style="color:#4A90E2;">CloudStart – Final Project Checklist (A1–A6 + Bonus)</span>
-### <span style="color:#7B7D7D;">Completed by: Samaneh</span>
+# <span style="color:#4A90E2;">CloudStart – Final Project Checklist (A1–A6 )</span>
+
 
 ---
 
@@ -67,18 +67,3 @@
 - [x] Recommendations filtered for **rg-cloudstart**  
 - [x] At least one recommendation implemented or justified  
 
----
-
-## <span style="color:#F1C40F;">★ Bonus – App Service</span>
-- [x] App Service Plan **asp-cloudstart** created (F1 Free Tier)  
-- [x] Web App **app-cloudstart-
-
-\[your-initials\]
-
-** deployed  
-- [x] Web App URL opened in browser  
-- [x] Application Setting **UMGEBUNG = Test** added  
-
----
-
-### <span style="color:#7B7D7D;">All tasks (A1–A6) and the bonus task were fully completed by Samaneh.</span>
