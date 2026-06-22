@@ -44,7 +44,19 @@
 - [x] Empfehlungen für **rg-cloudstart** gefiltert  
 - [x] Mindestens eine Empfehlung umgesetzt oder schriftlich begründet  
 
-----------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
 # <span style="color:#4A90E2;">CloudStart – Final Project Submission Checklist (A1–A6 + Bonus)</span>
 ### <span style="color:#7B7D7D;">Completed by: Samaneh</span>
 
