@@ -1,108 +1,63 @@
-# <span style="color:#4A90E2;">CloudStart – Project Submission Checklist (A1–A6)</span>
-
-
----
-
-## <span style="color:#4A90E2;">A1 – Netzwerk</span>
-- [x] Resource Group **rg-cloudstart** erstellt  
-- [x] VNet **vnet-cloudstart** mit zwei Subnetzen (**snet-app**, **snet-mgmt**)  
-- [x] **nsg-app** mit RDP-Regel → **snet-app** zugewiesen  
-- [x] **nsg-mgmt** mit SSH-Regel → **snet-mgmt** zugewiesen  
-
----
-
-## <span style="color:#27AE60;">A2 – VMs</span>
-- [x] **vm-app01 (Windows)** läuft in **snet-app**, RDP-Verbindung erfolgreich  
-- [x] **vm-mgmt01 (Linux)** läuft in **snet-mgmt**, SSH-Verbindung mit `uname`-Output  
-
----
-
-## <span style="color:#9B59B6;">A3 – Storage</span>
-- [x] Storage Account erstellt  
-- [x] Blob Container **dokumente** mit hochgeladener Datei  
-- [x] SAS-URL im Browser geöffnet  
-
----
-
-## <span style="color:#16A085;">A4 – Entra ID & RBAC</span>
-- [x] 3 Entra-Benutzer angelegt  
-- [x] Gruppe **grp-entwickler** mit *Ben Koller*  
-- [x] RBAC-Rollen auf **rg-cloudstart** gesetzt:  
-  - Reader  
-  - VM Contributor  
-
----
-
-## <span style="color:#E67E22;">A5 – Monitoring</span>
-- [x] CPU-Metrik als Liniendiagramm sichtbar  
-- [x] Alert Rule **alert-cpu-hoch** konfiguriert  
-
----
-
-## <span style="color:#C0392B;">A6 – Defender for Cloud</span>
-- [x] Defender for Cloud geöffnet, Secure Score notiert  
-- [x] Empfehlungen für **rg-cloudstart** gefiltert  
-- [x] Mindestens eine Empfehlung umgesetzt oder schriftlich begründet  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# <span style="color:#4A90E2;">CloudStart – Final Project Submission Checklist (A1–A6 + Bonus)</span>
+# <span style="color:#4A90E2;">CloudStart – Final Project Checklist (A1–A6 + Bonus)</span>
 ### <span style="color:#7B7D7D;">Completed by: Samaneh</span>
 
 ---
 
 ## <span style="color:#4A90E2;">A1 – Network</span>
 - [x] Resource Group **rg-cloudstart** created  
-- [x] Virtual Network **vnet-cloudstart** with two subnets:  
-  - **snet-app**  
-  - **snet-mgmt**  
-- [x] Network Security Group **nsg-app** created with RDP rule and assigned to **snet-app**  
-- [x] Network Security Group **nsg-mgmt** created with SSH rule and assigned to **snet-mgmt**
+- [x] Virtual Network **vnet-cloudstart** created with address space **10.0.0.0/16**  
+- [x] Subnets created:  
+  - **snet-app** (10.0.1.0/24)  
+  - **snet-mgmt** (10.0.2.0/24)  
+- [x] Network Security Group **nsg-app** created  
+  - RDP rule (Port 3389) added  
+  - Assigned to **snet-app**  
+- [x] Network Security Group **nsg-mgmt** created  
+  - SSH rule (Port 22) added  
+  - Assigned to **snet-mgmt**
 
 ---
 
 ## <span style="color:#27AE60;">A2 – Virtual Machines</span>
-- [x] **vm-app01 (Windows)** deployed in **snet-app**, RDP connection successful  
-- [x] **vm-mgmt01 (Linux)** deployed in **snet-mgmt**, SSH connection successful with `uname` output  
+- [x] Windows VM **vm-app01** deployed in **snet-app**  
+- [x] Successful RDP connection to **vm-app01**  
+- [x] Linux VM **vm-mgmt01** deployed in **snet-mgmt**  
+- [x] Successful SSH connection to **vm-mgmt01** with `uname -a` output  
 
 ---
 
 ## <span style="color:#9B59B6;">A3 – Storage</span>
-- [x] Storage Account created  
-- [x] Blob Container **dokumente** created  
-- [x] File uploaded to the container  
+- [x] Storage Account **stcloudstart
+
+\[your-initials\]
+
+** created  
+- [x] Blob Container **dokumente** created (Private access)  
+- [x] Test file uploaded  
 - [x] SAS URL generated and successfully opened in browser  
 
 ---
 
 ## <span style="color:#16A085;">A4 – Entra ID & RBAC</span>
-- [x] Three Entra ID users created  
-- [x] Group **grp-entwickler** created and *Ben Koller* added  
+- [x] Three Entra ID users created:  
+  - **Anna Maier** – Reader  
+  - **Ben Koller** – Developer  
+  - **Clara Fuchs** – No Azure access  
+- [x] Security Group **grp-entwickler** created  
+  - **Ben Koller** added as member  
 - [x] RBAC roles assigned on **rg-cloudstart**:  
-  - Reader  
-  - Virtual Machine Contributor  
+  - **Anna Maier → Reader**  
+  - **grp-entwickler → Virtual Machine Contributor**
 
 ---
 
 ## <span style="color:#E67E22;">A5 – Monitoring</span>
 - [x] CPU metric displayed as a line chart for **vm-app01**  
-- [x] Alert Rule **alert-cpu-hoch** configured with:  
-  - Valid signal  
-  - Threshold set  
-  - Evaluation settings corrected  
-  - Action Group linked  
-  - Rule enabled  
+- [x] Alert Rule **alert-cpu-hoch** created with:  
+  - Condition: CPU > 80%  
+  - Action Group: **action-email**  
+  - Severity: 2  
+  - Email notification enabled  
 
 ---
 
@@ -115,8 +70,15 @@
 ---
 
 ## <span style="color:#F1C40F;">★ Bonus – App Service</span>
-- [x] Web App deployed and running  
-- [x] Application Setting **UMGEBUNG = Test** configured  
+- [x] App Service Plan **asp-cloudstart** created (F1 Free Tier)  
+- [x] Web App **app-cloudstart-
+
+\[your-initials\]
+
+** deployed  
 - [x] Web App URL opened in browser  
+- [x] Application Setting **UMGEBUNG = Test** added  
 
+---
 
+### <span style="color:#7B7D7D;">All tasks (A1–A6) and the bonus task were fully completed by Samaneh.</span>
