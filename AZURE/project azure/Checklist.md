@@ -44,8 +44,3 @@
 - [x] Empfehlungen für **rg-cloudstart** gefiltert  
 - [x] Mindestens eine Empfehlung umgesetzt oder schriftlich begründet  
 
----
-
-### <span style="color:#7B7D7D;">Viel Erfolg!  
-Bei Problemen: Fehlermeldung lesen, Portal-Docs nutzen, Mitschüler fragen.  
-Azure lernt man am besten durch Ausprobieren.</span>
