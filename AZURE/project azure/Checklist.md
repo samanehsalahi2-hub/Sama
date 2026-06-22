@@ -29,9 +29,7 @@
 ## <span style="color:#9B59B6;">A3 – Storage</span>
 - [x] Storage Account **stcloudstart
 
-\[your-initials\]
 
-** created  
 - [x] Blob Container **dokumente** created (Private access)  
 - [x] Test file uploaded  
 - [x] SAS URL generated and successfully opened in browser  
