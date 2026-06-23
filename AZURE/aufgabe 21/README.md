@@ -36,7 +36,7 @@ This table summarizes four key Azure security-related services, their purpose, a
 </p>
 
 <p align="center">
-  <img src="https://github.com/samanehsalahi2-hub/Sama/blob/main/AZURE/aufgabe%2021/auf21-4.png" alt="My Image" width="800">
+  <img src="https://github.com/samanehsalahi2-hub/Sama/blob/main/AZURE/aufgabe%2021/auf21--4.png" alt="My Image" width="800">
 </p>
 
 <p align="center">
