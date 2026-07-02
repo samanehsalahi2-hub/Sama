@@ -9,7 +9,7 @@
 
 ---
 
-## 2. Practical Company Examples (2–3 sentences each)
+## 2. Practical Company Examples
 
 ### **Private Cloud**
 A pharmaceutical company keeps its critical systems inside its own datacenter due to strict medical data regulations. This setup gives them full control over security and compliance while maintaining predictable internal operations.
