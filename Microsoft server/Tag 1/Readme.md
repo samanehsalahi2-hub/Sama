@@ -1,9 +1,6 @@
-(17 August)
+# (17 August)
 
-# ILP – Day 1 Assignment 
-# Windows Server 2025 – Introduction, Installation & Windows Admin Center
 
----
 
 ## 🖥️ Task 1: Introduction to Windows Server 2025 – First Overview
 
