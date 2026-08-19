@@ -70,7 +70,6 @@ The server **SRV-DC-01.lab.local** now includes:
 - DNS Server  
 - File Server  
 
-The environment is fully prepared for Task 5 (Server Manager & Windows Admin Center review).
 
 <p align="center">
   <img src="https://github.com/samanehsalahi2-hub/Sama/blob/main/Microsoft%20server/Tag%202/18%20August.png" width="800"/>
