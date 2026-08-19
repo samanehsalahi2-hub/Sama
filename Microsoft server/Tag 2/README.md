@@ -72,3 +72,7 @@ The server **SRV-DC-01.lab.local** now includes:
 
 The environment is fully prepared for Task 5 (Server Manager & Windows Admin Center review).
 
+<p align="center">
+  <img src="https://github.com/samanehsalahi2-hub/Sama/edit/main/Microsoft%20server/Tag%202/18 August.png" width="800"/>
+</p>
+
